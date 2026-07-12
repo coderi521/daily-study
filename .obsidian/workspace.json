@@ -189,13 +189,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "bdadec5f66b065a6",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 439.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,10 +216,11 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "a8387ed37a5348cc",
+  "active": "bdadec5f66b065a6",
   "lastOpenFiles": [
     "MCP与Function Calling的区别.md",
     "未命名.canvas",

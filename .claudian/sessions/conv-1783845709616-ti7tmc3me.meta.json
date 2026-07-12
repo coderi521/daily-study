@@ -1,0 +1,25 @@
+{
+  "id": "conv-1783845709616-ti7tmc3me",
+  "providerId": "claude",
+  "title": "Greet in Chinese",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783845709625,
+  "updatedAt": 1783845873078,
+  "lastResponseAt": 1783845873078,
+  "sessionId": "003336fd-0803-46a3-9b7d-a590ec51d6bd",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "003336fd-0803-46a3-9b7d-a590ec51d6bd"
+  },
+  "currentNote": "MCP与Function Calling的区别.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 338,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 25216,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 25554,
+    "percentage": 13
+  }
+}
