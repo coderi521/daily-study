@@ -217,11 +217,13 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "realclaudian:Open Claudian": false
+      "realclaudian:Open Claudian": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "df6dbe8251990fd1",
+  "active": "bdadec5f66b065a6",
   "lastOpenFiles": [
+    "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.excalidraw.md",
     "已归档",
     "附件/excalidraw",
     "附件",
