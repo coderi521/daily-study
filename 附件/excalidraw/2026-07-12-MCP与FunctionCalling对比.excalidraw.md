@@ -298,7 +298,7 @@ tags: [excalidraw]
       "locked": false,
       "points": [[0, 0], [0, 45]],
       "startBinding": {"elementId": "fc-client", "focus": 0, "gap": 2},
-      "endBinding": null,
+      "endBinding": {"elementId": "fc-api", "focus": 0, "gap": 2},
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -408,7 +408,7 @@ tags: [excalidraw]
       "link": null,
       "locked": false,
       "points": [[0, 0], [0, -45]],
-      "startBinding": null,
+      "startBinding": {"elementId": "fc-api", "focus": 0.5, "gap": 2},
       "endBinding": {"elementId": "fc-client", "focus": -0.5, "gap": 2},
       "startArrowhead": null,
       "endArrowhead": "arrow"
@@ -464,7 +464,7 @@ tags: [excalidraw]
       "locked": false,
       "points": [[0, 0], [0, 40]],
       "startBinding": {"elementId": "fc-api", "focus": 0, "gap": 2},
-      "endBinding": null,
+      "endBinding": {"elementId": "fc-exec", "focus": 1, "gap": 2},
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -683,7 +683,7 @@ tags: [excalidraw]
       "locked": false,
       "points": [[0, 0], [0, 45]],
       "startBinding": {"elementId": "mcp-host", "focus": 0, "gap": 2},
-      "endBinding": null,
+      "endBinding": {"elementId": "mcp-server", "focus": 0, "gap": 2},
       "startArrowhead": null,
       "endArrowhead": "arrow"
     },
@@ -711,7 +711,7 @@ tags: [excalidraw]
       "link": null,
       "locked": false,
       "points": [[0, 0], [0, -45]],
-      "startBinding": null,
+      "startBinding": {"elementId": "mcp-server", "focus": 0.5, "gap": 2},
       "endBinding": {"elementId": "mcp-host", "focus": -0.5, "gap": 2},
       "startArrowhead": null,
       "endArrowhead": "arrow"

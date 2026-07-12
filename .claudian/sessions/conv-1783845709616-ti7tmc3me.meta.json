@@ -4,22 +4,21 @@
   "title": "Greet in Chinese",
   "titleGenerationStatus": "success",
   "createdAt": 1783845709625,
-  "updatedAt": 1783847461910,
-  "lastResponseAt": 1783847461910,
+  "updatedAt": 1783848098842,
+  "lastResponseAt": 1783848098842,
   "sessionId": "003336fd-0803-46a3-9b7d-a590ec51d6bd",
   "selectedModel": "haiku",
   "providerState": {
     "providerSessionId": "003336fd-0803-46a3-9b7d-a590ec51d6bd"
   },
-  "currentNote": "AI知识/MCP与Function Calling的区别.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 130,
+    "inputTokens": 103,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 98560,
+    "cacheReadInputTokens": 117760,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 98690,
-    "percentage": 49
+    "contextTokens": 117863,
+    "percentage": 59
   }
 }
