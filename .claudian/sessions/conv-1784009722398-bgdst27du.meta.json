@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784009722398-bgdst27du",
+  "providerId": "claude",
+  "title": "Summarize provided content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784009722398,
+  "updatedAt": 1784009753118,
+  "lastResponseAt": 1784009753118,
+  "sessionId": "78ff0aea-1bb6-4fe8-aed6-09a9c019082e",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "78ff0aea-1bb6-4fe8-aed6-09a9c019082e"
+  },
+  "currentNote": "开发常识/sdd和tdd分别是什么.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 84,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32896,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 32980,
+    "percentage": 16
+  }
+}

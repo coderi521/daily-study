@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI知识/场景营销前端 AI Coding — AI Native 的视觉稿还原.md",
+                "file": "开发常识/sdd和tdd分别是什么.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "场景营销前端 AI Coding — AI Native 的视觉稿还原"
+              "title": "sdd和tdd分别是什么"
             }
           }
         ],
@@ -263,17 +263,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50a60f2698552c27",
+  "active": "df6dbe8251990fd1",
   "lastOpenFiles": [
-    "附件/excalidraw/2026-07-14-Tarot-Pixel-架构图.svg",
-    "附件/excalidraw/2026-07-14-Tarot Pixel 架构图.excalidraw.md",
     "AI知识/场景营销前端 AI Coding — AI Native 的视觉稿还原.md",
-    "AI知识/MCP与Function Calling的区别.md",
+    "开发常识/sdd和tdd分别是什么.md",
     "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.png",
+    "附件/excalidraw/2026-07-14-Tarot Pixel 架构图.excalidraw.md",
     "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.excalidraw.md",
+    "附件/excalidraw/2026-07-14-Tarot-Pixel-架构图.svg",
+    "AI知识/MCP与Function Calling的区别.md",
     "Excalidraw/Drawing 2026-07-12 17.21.08.excalidraw.md",
     "Excalidraw/Drawing 2026-07-12 17.18.43.excalidraw.md",
-    "开发常识/sdd和tdd分别是什么.md",
     "开发常识",
     "cc内容/07-14-Tarot Pixel Agent-Native视觉还原方案.md",
     "已归档/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md",
