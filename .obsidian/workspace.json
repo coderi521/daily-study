@@ -11,10 +11,12 @@
             "id": "bc266bbeb252f96f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "image",
+              "state": {
+                "file": "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.png"
+              },
+              "icon": "lucide-image",
+              "title": "2026-07-12-MCP与FunctionCalling对比"
             }
           }
         ]
@@ -167,8 +169,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -177,12 +179,12 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "claudian-view"
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -196,17 +198,20 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false,
+      "realclaudian:Open Claudian": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "bc266bbeb252f96f",
   "lastOpenFiles": [
+    "已归档/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md",
     "AI知识/MCP与Function Calling的区别.md",
     "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.png",
     "cc内容/07-12-MCP终极指南-基础篇.md",
     "Excalidraw/Drawing 2026-07-12 17.21.08.excalidraw.md",
     "Clippings/Bilibili/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md",
-    "已归档/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md",
     "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.excalidraw.md",
     "Excalidraw/Drawing 2026-07-12 17.18.43.excalidraw.md",
     "Excalidraw",

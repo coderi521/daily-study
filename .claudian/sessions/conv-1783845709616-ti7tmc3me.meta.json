@@ -1,24 +1,27 @@
 {
   "id": "conv-1783845709616-ti7tmc3me",
   "providerId": "claude",
-  "title": "Greet in Chinese",
+  "title": "Initiate conversation",
   "titleGenerationStatus": "success",
   "createdAt": 1783845709625,
-  "updatedAt": 1783848494148,
-  "lastResponseAt": 1783848494148,
-  "sessionId": "003336fd-0803-46a3-9b7d-a590ec51d6bd",
+  "updatedAt": 1783996795886,
+  "lastResponseAt": 1783996795886,
+  "sessionId": "494c0380-e3fa-4a0c-9c50-2d87944745fe",
   "selectedModel": "haiku",
   "providerState": {
-    "providerSessionId": "003336fd-0803-46a3-9b7d-a590ec51d6bd"
+    "providerSessionId": "494c0380-e3fa-4a0c-9c50-2d87944745fe",
+    "previousProviderSessionIds": [
+      "003336fd-0803-46a3-9b7d-a590ec51d6bd"
+    ]
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 200,
+    "inputTokens": 27638,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 133760,
+    "cacheReadInputTokens": 0,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 133960,
-    "percentage": 67
+    "contextTokens": 27638,
+    "percentage": 14
   }
 }
