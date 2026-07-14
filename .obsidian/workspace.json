@@ -11,12 +11,14 @@
             "id": "bc266bbeb252f96f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.png"
+                "file": "AI知识/场景营销前端 AI Coding — AI Native 的视觉稿还原.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "2026-07-12-MCP与FunctionCalling对比"
+              "icon": "lucide-file",
+              "title": "场景营销前端 AI Coding — AI Native 的视觉稿还原"
             }
           }
         ]
@@ -206,9 +208,10 @@
   },
   "active": "bc266bbeb252f96f",
   "lastOpenFiles": [
+    "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.png",
+    "AI知识/场景营销前端 AI Coding — AI Native 的视觉稿还原.md",
     "已归档/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md",
     "AI知识/MCP与Function Calling的区别.md",
-    "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.png",
     "cc内容/07-12-MCP终极指南-基础篇.md",
     "Excalidraw/Drawing 2026-07-12 17.21.08.excalidraw.md",
     "Clippings/Bilibili/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md",
