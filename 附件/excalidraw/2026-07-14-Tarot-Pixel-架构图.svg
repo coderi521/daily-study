@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1550" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+    <filter id="shadow-sm" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="1550" fill="url(#bg)" rx="8"/>
+
+  <!-- Title -->
+  <text x="600" y="45" text-anchor="middle" font-size="26" font-weight="bold" fill="#1e1e1e">Tarot Pixel — Agent-Native 视觉还原方案</text>
+  <text x="600" y="72" text-anchor="middle" font-size="14" fill="#666">不建管道，建图书馆 — 让 Agent 自己看懂设计稿</text>
+
+  <!-- ============ SECTION 1: Architecture ============ -->
+  <text x="600" y="115" text-anchor="middle" font-size="15" font-weight="bold" fill="#333">━━━ 系统架构 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+
+  <!-- MasterGo Plugin -->
+  <rect x="60" y="140" width="300" height="65" rx="8" fill="#d0ebff" stroke="#1971c2" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="210" y="163" text-anchor="middle" font-size="16" font-weight="bold" fill="#1971c2">🎨 MasterGo 插件</text>
+  <text x="210" y="190" text-anchor="middle" font-size="11" fill="#1971c2">数据层核心：解析+降噪，一次性导出整个设计稿</text>
+
+  <!-- Arrow -->
+  <line x1="360" y1="172" x2="430" y2="172" stroke="#1971c2" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <polygon points="430,165 445,172 430,179" fill="#1971c2"/>
+
+  <!-- Viewer Server -->
+  <rect x="450" y="140" width="300" height="65" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="600" y="163" text-anchor="middle" font-size="16" font-weight="bold" fill="#2f9e44">🖥️ Viewer Server</text>
+  <text x="600" y="190" text-anchor="middle" font-size="11" fill="#2f9e44">可视化层：1:1 Web 预览 + Browser Use + Map 模式</text>
+
+  <!-- Arrow -->
+  <line x1="750" y1="172" x2="820" y2="172" stroke="#2f9e44" stroke-width="2"/>
+  <polygon points="820,165 835,172 820,179" fill="#2f9e44"/>
+
+  <!-- API Service -->
+  <rect x="840" y="140" width="300" height="65" rx="8" fill="#ffe8cc" stroke="#e8590c" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="990" y="163" text-anchor="middle" font-size="16" font-weight="bold" fill="#e8590c">🔌 API 服务</text>
+  <text x="990" y="190" text-anchor="middle" font-size="11" fill="#e8590c">20+ REST API，按需拉取、幂等无状态</text>
+
+  <!-- ============ SECTION 2: API Layers ============ -->
+  <text x="600" y="245" text-anchor="middle" font-size="15" font-weight="bold" fill="#333">━━━ 核心 API 分层设计（按需查询，非全量推送）━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+
+  <rect x="80" y="270" width="300" height="38" rx="6" fill="#d0ebff" stroke="#1971c2" stroke-width="1.5" filter="url(#shadow-sm)"/>
+  <text x="230" y="294" text-anchor="middle" font-size="13" fill="#1971c2">L1: overview / screenshot → 整体结构概览</text>
+
+  <rect x="450" y="270" width="300" height="38" rx="6" fill="#d3f9d8" stroke="#2f9e44" stroke-width="1.5" filter="url(#shadow-sm)"/>
+  <text x="600" y="294" text-anchor="middle" font-size="13" fill="#2f9e44">L2: d2c-context → 选定节点结构化数据</text>
+
+  <rect x="820" y="270" width="300" height="38" rx="6" fill="#ffe8cc" stroke="#e8590c" stroke-width="1.5" filter="url(#shadow-sm)"/>
+  <text x="970" y="294" text-anchor="middle" font-size="13" fill="#e8590c">L3-4: composite / node-map / chat</text>
+  <text x="970" y="318" text-anchor="middle" font-size="11" fill="#888">→ 合成图 / 图片定位 / 语义分析</text>
+
+  <line x1="50" y1="340" x2="1150" y2="340" stroke="#dee2e6" stroke-width="1"/>
+
+  <!-- ============ SECTION 3: Comparison ============ -->
+  <text x="600" y="375" text-anchor="middle" font-size="15" font-weight="bold" fill="#333">━━━ 传统 D2C vs Tarot Pixel 对比 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+
+  <!-- Traditional D2C -->
+  <rect x="50" y="400" width="510" height="260" rx="10" fill="#fff5f5" stroke="#e03131" stroke-width="2" filter="url(#shadow)"/>
+  <text x="305" y="430" text-anchor="middle" font-size="17" font-weight="bold" fill="#e03131">❌ 传统 D2C — 建管道</text>
+  <line x1="80" y1="445" x2="530" y2="445" stroke="#f8d7da" stroke-width="1"/>
+  <text x="70" y="475" font-size="12" fill="#c92a2a">设计稿 → 手动选图层 → 手动切图</text>
+  <text x="70" y="498" font-size="12" fill="#c92a2a">→ D2C 平台替你生成代码</text>
+  <text x="70" y="521" font-size="12" fill="#c92a2a">→ 一次性输出（空壳，没法直接用）</text>
+  <text x="70" y="544" font-size="12" fill="#c92a2a">→ 发现不对 → 从头再走一遍流程</text>
+  <line x1="80" y1="560" x2="530" y2="560" stroke="#f8d7da" stroke-width="1"/>
+  <text x="70" y="582" font-size="12" fill="#c92a2a">❌ 大量人工配合（选图层、标状态、切图）</text>
+  <text x="70" y="602" font-size="12" fill="#c92a2a">❌ 脱离业务上下文，只做视觉翻译</text>
+  <text x="70" y="622" font-size="12" fill="#c92a2a">❌ 一次性交付，不可迭代修正</text>
+
+  <!-- VS -->
+  <rect x="570" y="500" width="60" height="40" rx="20" fill="#212529" filter="url(#shadow-sm)"/>
+  <text x="600" y="526" text-anchor="middle" font-size="18" font-weight="bold" fill="white">VS</text>
+
+  <!-- Tarot Pixel -->
+  <rect x="640" y="400" width="510" height="260" rx="10" fill="#ebfbee" stroke="#2f9e44" stroke-width="2" filter="url(#shadow)"/>
+  <text x="895" y="430" text-anchor="middle" font-size="17" font-weight="bold" fill="#2f9e44">✅ Tarot Pixel — 建图书馆</text>
+  <line x1="670" y1="445" x2="1120" y2="445" stroke="#b2f2bb" stroke-width="1"/>
+  <text x="660" y="475" font-size="12" fill="#2b8a3e">MasterGo 一次性导出整个页面</text>
+  <text x="660" y="498" font-size="12" fill="#2b8a3e">→ Viewer 转成 Web 预览</text>
+  <text x="660" y="521" font-size="12" fill="#2b8a3e">→ REST API 分层提供视觉信息</text>
+  <text x="660" y="544" font-size="12" fill="#2b8a3e">→ Coding Agent 自己查、自己写代码</text>
+  <text x="660" y="567" font-size="12" fill="#2b8a3e">→ 基于项目上下文自主决策实现</text>
+  <line x1="670" y1="580" x2="1120" y2="580" stroke="#b2f2bb" stroke-width="1"/>
+  <text x="660" y="602" font-size="12" fill="#2b8a3e">✅ 无需手动选图层/切图</text>
+  <text x="660" y="622" font-size="12" fill="#2b8a3e">✅ 业务上下文 + 视觉上下文兼备</text>
+  <text x="660" y="642" font-size="12" fill="#2b8a3e">✅ 持续在线，可迭代修正</text>
+
+  <line x1="50" y1="700" x2="1150" y2="700" stroke="#dee2e6" stroke-width="1"/>
+
+  <!-- ============ SECTION 4: Fix Loop ============ -->
+  <text x="600" y="735" text-anchor="middle" font-size="15" font-weight="bold" fill="#333">━━━ 修正闭环：实现 → 比对 → 修正 → 再比对 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+
+  <!-- Step 1 -->
+  <ellipse cx="150" cy="800" rx="70" ry="35" fill="#d0ebff" stroke="#1971c2" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="150" y="806" text-anchor="middle" font-size="16" font-weight="bold" fill="#1971c2">① 实现</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="220" y1="800" x2="340" y2="800" stroke="#1e1e1e" stroke-width="2"/>
+  <polygon points="340,793 355,800 340,807" fill="#1e1e1e"/>
+
+  <!-- Step 2 -->
+  <ellipse cx="430" cy="800" rx="70" ry="35" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="430" y="806" text-anchor="middle" font-size="16" font-weight="bold" fill="#2f9e44">② 比对</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="500" y1="800" x2="620" y2="800" stroke="#1e1e1e" stroke-width="2"/>
+  <polygon points="620,793 635,800 620,807" fill="#1e1e1e"/>
+
+  <!-- Step 3 -->
+  <ellipse cx="710" cy="800" rx="70" ry="35" fill="#ffe8cc" stroke="#e8590c" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="710" y="806" text-anchor="middle" font-size="16" font-weight="bold" fill="#e8590c">③ 修正</text>
+
+  <!-- Arrow 3→4 (down) -->
+  <line x1="780" y1="830" x2="780" y2="870" stroke="#1e1e1e" stroke-width="2"/>
+  <polygon points="773,870 780,885 787,870" fill="#1e1e1e"/>
+
+  <!-- Step 4 -->
+  <ellipse cx="710" cy="910" rx="70" ry="35" fill="#f3d9fa" stroke="#9c36b5" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="710" y="916" text-anchor="middle" font-size="16" font-weight="bold" fill="#9c36b5">④ 再比对</text>
+
+  <!-- Arrow 4→1 (back) -->
+  <path d="M 640 925 Q 200 960 220 830" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  <polygon points="226,823 215,840 235,835" fill="#1e1e1e"/>
+
+  <text x="600" y="980" text-anchor="middle" font-size="13" fill="#555">设计稿信息持续在线 → Agent 随时回查和修正</text>
+  <text x="600" y="1000" text-anchor="middle" font-size="12" fill="#888">不追求一次性完美，关键是「观察→规划→执行→反思」的闭环</text>
+
+  <line x1="50" y1="1030" x2="1150" y2="1030" stroke="#dee2e6" stroke-width="1"/>
+
+  <!-- ============ SECTION 5: Design Principles ============ -->
+  <text x="600" y="1065" text-anchor="middle" font-size="15" font-weight="bold" fill="#333">━━━ 设计原则：各司其职 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+
+  <!-- Engineering -->
+  <rect x="60" y="1090" width="320" height="95" rx="8" fill="#d0ebff" stroke="#1971c2" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="70" y="1120" font-size="14" font-weight="bold" fill="#1971c2">🔧 工程做工程擅长的事</text>
+  <text x="70" y="1145" font-size="12" fill="#1971c2">CSS 提取、资源导出、蒙版处理、布局推断</text>
+  <text x="70" y="1168" font-size="12" fill="#1971c2">→ 确定性高，不能出错</text>
+
+  <!-- AI -->
+  <rect x="440" y="1090" width="320" height="95" rx="8" fill="#ffe8cc" stroke="#e8590c" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="450" y="1120" font-size="14" font-weight="bold" fill="#e8590c">🧠 AI 做 AI 擅长的事</text>
+  <text x="450" y="1145" font-size="12" fill="#e8590c">装饰/内容识别、状态关系判断、还原度比对</text>
+  <text x="450" y="1168" font-size="12" fill="#e8590c">→ 需要理解力和判断力</text>
+
+  <!-- Coding Agent -->
+  <rect x="820" y="1090" width="320" height="95" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2" filter="url(#shadow-sm)"/>
+  <text x="830" y="1120" font-size="14" font-weight="bold" fill="#2f9e44">🤖 Coding Agent 做自己的事</text>
+  <text x="830" y="1145" font-size="12" fill="#2f9e44">结合项目代码库、正确架构写出能用的代码</text>
+  <text x="830" y="1168" font-size="12" fill="#2f9e44">→ 拥有完整项目上下文</text>
+
+  <line x1="50" y1="1220" x2="1150" y2="1220" stroke="#dee2e6" stroke-width="1"/>
+
+  <!-- ============ SECTION 6: Quote ============ -->
+  <text x="600" y="1260" text-anchor="middle" font-size="17" font-weight="bold" fill="#333">「我没有做 Agent，我做了一个为 Agent 服务的系统」</text>
+  <text x="600" y="1288" text-anchor="middle" font-size="14" fill="#666">—— Tarot Pixel 不是 D2C 平台，而是 Coding Agent 的视觉感知层</text>
+
+  <!-- Footer -->
+  <text x="600" y="1330" text-anchor="middle" font-size="11" fill="#999">来源：https://mp.weixin.qq.com/s/xpaoZFWeSw5S3aifUGjF2Q ｜ 整理日期：2026-07-14</text>
+
+  <!-- ============ Legends / Tags ============ -->
+
+</svg>
