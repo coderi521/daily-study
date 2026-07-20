@@ -67,14 +67,12 @@
             "id": "50a60f2698552c27",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "开发常识/sdd和tdd分别是什么.md",
-                "mode": "source",
-                "source": false
+                "file": "resource/深入理解-AI-Agent-李博杰-v1.1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "sdd和tdd分别是什么"
+              "icon": "lucide-file-text",
+              "title": "深入理解-AI-Agent-李博杰-v1.1"
             }
           }
         ],
@@ -263,10 +261,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "bdadec5f66b065a6",
+  "active": "50a60f2698552c27",
   "lastOpenFiles": [
-    "AI知识/场景营销前端 AI Coding — AI Native 的视觉稿还原.md",
     "开发常识/sdd和tdd分别是什么.md",
+    "resource/深入理解-AI-Agent-李博杰-v1.1.pdf",
+    "resource",
+    "AI知识/场景营销前端 AI Coding — AI Native 的视觉稿还原.md",
     "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.png",
     "附件/excalidraw/2026-07-14-Tarot Pixel 架构图.excalidraw.md",
     "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.excalidraw.md",
@@ -287,7 +287,6 @@
     "Clippings",
     "cc内容",
     "CLAUDE.md",
-    "未命名.canvas",
-    "AI知识"
+    "未命名.canvas"
   ]
 }
