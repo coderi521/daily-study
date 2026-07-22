@@ -4,8 +4,8 @@
   "title": "Summarize provided content",
   "titleGenerationStatus": "success",
   "createdAt": 1784009722398,
-  "updatedAt": 1784549595908,
-  "lastResponseAt": 1784549595908,
+  "updatedAt": 1784722996880,
+  "lastResponseAt": 1784722996880,
   "sessionId": "78ff0aea-1bb6-4fe8-aed6-09a9c019082e",
   "selectedModel": "haiku",
   "providerState": {
@@ -13,12 +13,12 @@
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 829,
+    "inputTokens": 538,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 33152,
+    "cacheReadInputTokens": 36096,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 33981,
-    "percentage": 17
+    "contextTokens": 36634,
+    "percentage": 18
   }
 }
