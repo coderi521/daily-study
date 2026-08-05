@@ -28,14 +28,12 @@
             "id": "8e18c51471bf5398",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "动手写代码以前，可以先把七件事想清楚：.md",
-                "mode": "source",
-                "source": false
+                "file": "resource/深入理解-AI-Agent-李博杰-v1.1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "动手写代码以前，可以先把七件事想清楚："
+              "icon": "lucide-file-text",
+              "title": "深入理解-AI-Agent-李博杰-v1.1"
             }
           }
         ],
@@ -229,11 +227,15 @@
   },
   "active": "8e18c51471bf5398",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-07-12 17.21.08.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-12 17.18.43.excalidraw.md",
+    "cc内容/07-12-MCP终极指南-基础篇.md",
+    "AI知识/MCP与Function Calling的区别.md",
+    "AI知识/场景营销前端 AI Coding — AI Native 的视觉稿还原.md",
+    "方法论/动手写代码以前，可以先把七件事想清楚：.md",
     "未命名 1.canvas",
-    "动手写代码以前，可以先把七件事想清楚：.md",
     "方法论",
     "未命名.canvas",
-    "AI知识/场景营销前端 AI Coding — AI Native 的视觉稿还原.md",
     "resource/深入理解-AI-Agent-李博杰-v1.1.pdf",
     "开发常识/sdd和tdd分别是什么.md",
     "resource",
@@ -241,13 +243,9 @@
     "附件/excalidraw/2026-07-14-Tarot Pixel 架构图.excalidraw.md",
     "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.excalidraw.md",
     "附件/excalidraw/2026-07-14-Tarot-Pixel-架构图.svg",
-    "AI知识/MCP与Function Calling的区别.md",
-    "Excalidraw/Drawing 2026-07-12 17.21.08.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-12 17.18.43.excalidraw.md",
     "开发常识",
     "cc内容/07-14-Tarot Pixel Agent-Native视觉还原方案.md",
     "已归档/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md",
-    "cc内容/07-12-MCP终极指南-基础篇.md",
     "Clippings/Bilibili/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md",
     "Excalidraw",
     "Clippings/Bilibili",
