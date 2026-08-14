@@ -4,40 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "7700860f2c5c22ac",
+        "id": "ad8c6d4f620d46ae",
         "type": "tabs",
         "children": [
           {
-            "id": "6840b7c220e63363",
+            "id": "4424377b9142f305",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "未命名 1.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名 1"
-            }
-          },
-          {
-            "id": "8e18c51471bf5398",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "resource/go-study.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "go-study"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.48046875,
-    "collapsed": true
+    "width": 372.48046875
   },
   "right": {
     "id": "8fd9650ff2a466a2",
@@ -225,10 +204,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8e18c51471bf5398",
+  "active": "4424377b9142f305",
   "lastOpenFiles": [
-    "resource/深入理解-AI-Agent-李博杰-v1.1.pdf",
+    "未命名 1.canvas",
+    "未命名 4.canvas",
+    "未命名 3.canvas",
+    "未命名.base",
+    "未命名 2.canvas",
     "resource/go-study.pdf",
+    "resource/深入理解-AI-Agent-李博杰-v1.1.pdf",
     "resource/10 万字 Go 语言保姆级编程教程2021最新版（公众号Go语言入门到精通出品）(1).pdf",
     "Excalidraw/Drawing 2026-07-12 17.21.08.excalidraw.md",
     "Excalidraw/Drawing 2026-07-12 17.18.43.excalidraw.md",
@@ -236,7 +220,6 @@
     "AI知识/MCP与Function Calling的区别.md",
     "AI知识/场景营销前端 AI Coding — AI Native 的视觉稿还原.md",
     "方法论/动手写代码以前，可以先把七件事想清楚：.md",
-    "未命名 1.canvas",
     "方法论",
     "未命名.canvas",
     "开发常识/sdd和tdd分别是什么.md",
@@ -252,8 +235,6 @@
     "Excalidraw",
     "Clippings/Bilibili",
     "已归档",
-    "附件/excalidraw",
-    "附件",
     "CLAUDE.md"
   ]
 }
