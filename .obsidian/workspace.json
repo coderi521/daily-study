@@ -11,11 +11,9 @@
             "id": "4424377b9142f305",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "resource/学习go.md",
-                "mode": "preview",
-                "source": false
+                "file": "后端开发/go/学习go.md"
               },
               "icon": "lucide-file",
               "title": "学习go"
@@ -25,14 +23,12 @@
             "id": "c2a2ded3a07d722c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "resource/学习go.md",
-                "mode": "source",
-                "source": false
+                "file": "resource/go-study.pdf"
               },
-              "icon": "lucide-file",
-              "title": "学习go"
+              "icon": "lucide-file-text",
+              "title": "go-study"
             }
           }
         ]
@@ -94,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.48046875
+    "width": 372.48046875,
+    "collapsed": true
   },
   "right": {
     "id": "8fd9650ff2a466a2",
@@ -172,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resource/学习go.md",
+                "file": "后端开发/go/学习go.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -224,16 +221,21 @@
   },
   "active": "4424377b9142f305",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "后端开发/go/学习go.md",
+    "后端开发/go",
+    "后端开发",
+    "未命名 3.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "未命名.base",
     "resource/go-study.pdf",
     "resource/学习go.md",
+    "resource/深入理解-AI-Agent-李博杰-v1.1.pdf",
     "go‑study.md",
     "go‑study.pdf.md",
     "resource/pdf.md",
-    "resource/深入理解-AI-Agent-李博杰-v1.1.pdf",
-    "未命名 1.canvas",
     "未命名 4.canvas",
-    "未命名 3.canvas",
-    "未命名.base",
     "未命名 2.canvas",
     "resource/10 万字 Go 语言保姆级编程教程2021最新版（公众号Go语言入门到精通出品）(1).pdf",
     "Excalidraw/Drawing 2026-07-12 17.21.08.excalidraw.md",
@@ -243,7 +245,6 @@
     "AI知识/场景营销前端 AI Coding — AI Native 的视觉稿还原.md",
     "方法论/动手写代码以前，可以先把七件事想清楚：.md",
     "方法论",
-    "未命名.canvas",
     "开发常识/sdd和tdd分别是什么.md",
     "resource",
     "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.png",
@@ -254,9 +255,6 @@
     "cc内容/07-14-Tarot Pixel Agent-Native视觉还原方案.md",
     "已归档/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md",
     "Clippings/Bilibili/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md",
-    "Excalidraw",
-    "Clippings/Bilibili",
-    "已归档",
-    "CLAUDE.md"
+    "Excalidraw"
   ]
 }
