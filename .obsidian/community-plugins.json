@@ -2,5 +2,7 @@
   "obsidian-git",
   "realclaudian",
   "obsidian-excalidraw-plugin",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "obsidian-annotator",
+  "dataview"
 ]
