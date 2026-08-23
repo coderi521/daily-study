@@ -15,8 +15,8 @@
               "state": {
                 "file": "开发相关/agent/深入了解agent.md"
               },
-              "icon": "lucide-file",
-              "title": "深入了解agent"
+              "icon": "lucide-ghost",
+              "title": "pdf-annotator"
             }
           }
         ]
@@ -172,8 +172,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -182,8 +182,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           }
         ],
@@ -202,10 +202,7 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false,
-      "realclaudian:Open Claudian": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "bases:新建数据库": false
     }
   },
   "active": "469da70ddc85035d",
