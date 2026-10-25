@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2a97928bcce7baba",
+        "id": "02d1651b1303865e",
         "type": "tabs",
         "children": [
           {
-            "id": "469da70ddc85035d",
+            "id": "b1c7248d250a5ba3",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "开发相关/agent/深入了解agent.md"
+                "file": "自媒体/如何选赛道.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "深入了解agent"
+              "title": "如何选赛道"
             }
           }
         ]
@@ -78,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.48046875,
-    "collapsed": true
+    "width": 372.48046875
   },
   "right": {
     "id": "8fd9650ff2a466a2",
@@ -208,10 +209,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "469da70ddc85035d",
+  "active": "b1c7248d250a5ba3",
   "lastOpenFiles": [
-    "开发相关/go/学习go.md",
+    "自媒体/如何选赛道.md",
+    "自媒体",
     "开发相关/agent/深入了解agent.md",
+    "开发相关/go/学习go.md",
     "未命名.md",
     "未命名.canvas",
     "开发相关/agent",
@@ -243,7 +246,6 @@
     "附件/excalidraw/2026-07-14-Tarot Pixel 架构图.excalidraw.md",
     "附件/excalidraw/2026-07-12-MCP与FunctionCalling对比.excalidraw.md",
     "附件/excalidraw/2026-07-14-Tarot-Pixel-架构图.svg",
-    "开发常识",
     "cc内容/07-14-Tarot Pixel Agent-Native视觉还原方案.md",
     "已归档/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md",
     "Clippings/Bilibili/2026-07-12-MCP终极指南 - 从原理到实战，带你深入掌握MCP（基础篇）.md"
